@@ -1,0 +1,7 @@
+#include "Ray.h"
+
+Ray::Ray()
+{
+  _base = Point3d();
+  _direction = Vector3d();
+}

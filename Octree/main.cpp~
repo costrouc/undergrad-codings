@@ -1,0 +1,22 @@
+#include "Octree.h"
+#include "triple.h"
+
+#include<time.h>
+#include <iostream>
+#include <stdlib.h>
+
+typedef triple point;
+
+int main(void)
+{
+  Octree octree;
+  
+  for (int i=0; i< 1000; ++i)
+    {
+      point p((1.0 * rand())/RAND_MAX,(1.0 * rand())/RAND_MAX,(1.0 * rand())/RAND_MAX);
+      octree.Insert(p);
+    }
+  
+  octree.PrintOctree();
+  return 0;
+}

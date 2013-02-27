@@ -1,0 +1,15 @@
+#include "Triple.h"
+
+class Point3d : Triple
+{
+ public:
+  Point Add(Point p);
+  Point Subtract(Point p);
+  Point GetDistance(Point p);
+  
+  
+
+
+
+
+}

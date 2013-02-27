@@ -1,0 +1,17 @@
+Tuple
+absolute
+scale
+scaleadd
+equals
+epsilonequals
+
+
+Point3d
+distance
+
+Vector3d
+cross
+dot
+normalize
+length
+

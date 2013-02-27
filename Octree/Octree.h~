@@ -1,0 +1,34 @@
+#ifndef OCTREE_H
+#define OCTREE_H
+
+#include "Triple.h"
+#include "OctreeNode.h"
+
+#include <stdlib.h>
+#include <iostream>
+#include <vector>
+
+typedef Triple point;
+
+/* Creates an octree that holds objects of type
+ * point. The box dimension are assumed to be (1,1,1).
+ * A class Intersects is expected to have
+ * A method IsIn() to determine if the object is
+ * within the bounding box
+ */
+
+class Octree
+{
+ public:
+  Octree();
+  ~Octree();
+  
+  bool Insert(point o);
+  std::vector<point> GetObjects(point p);
+  void PrintOctree();
+  
+ private:
+  OctreeNode _headNode;
+};
+
+#endif

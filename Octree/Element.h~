@@ -1,0 +1,91 @@
+#ifndef ELEMENT_H
+#define ELEMENT_H
+n
+class Element
+{
+ public:
+  Element(int atomicNumber);
+  ~Element();
+
+  string GetName();
+  string GetSymbol();
+  int GetAtomicNumber();
+  double GetAtomicWeight(); 	         /* (u.m) */
+  double GetDensity();	                 /* (g/cm^3) */
+  double GetMeltingPoint();              /* (K) */
+  double GetBoilingPoint();              /* (K) */
+  double GetAtomicRadius();              /* (pm) */
+  double GetCovalentRadius(); 	         /* (pm) */
+  double GetIonicRadius();	         /* (pm) */
+  double GetAtomicVolume();	         /* (cm^3/mol) */
+  double GetSpecificHeat();	         /* (@20C J/g mol */
+  double GetFusionHeat();	         /* (kJ/mol) */
+  double GetEvaporationHeat();	         /* (kJ/mol) */
+  double GetThermalConductivity();       /* (@25C W/m K) */
+  double GetDebyeTemperature();
+  double GetPaulingNegativityNumber();
+  double GetFirstIonizationEnergy();     /* (kJ/mol) */
+  string GetOxidationStates();
+  string GetElectronicConfiguration();
+  string GetLatticStructure();
+  double GetLatticeConstant();    	/* Angrstrom */
+  double GetLatticeCARatio();
+  string GetAppearance();
+  string GetDiscoveryDate();
+  string GetDiscoverer();
+  string GetNamedAfter();
+
+ private:
+  ReadElemenetInfo(string);
+
+  double _name;
+  string _symbol;
+  int _number;
+  double _weight;
+  double _density;
+  double _melting;
+  double _boiling;
+  double _atomicRadius;
+  double _covalentRadius;
+  double _ionicRadius;
+  double _atomicVolume;
+  double _specificHeat;
+  double _fusionHeat;
+  double _evaporationHeat;
+  double _thermalConductivity;
+  double _debyeTemp;
+  double _pauling;
+  double _energy;
+  double _oxidation;
+  string _configuration;
+  string _lattice;
+  double _latticeConstant;
+  double _latticeCARatio;
+  string _appearance;
+  string _discoveryDate;
+  string _discoveredBy;
+  string _namedAfter;
+  string _maxInfoNr;
+  string _xPos;
+  string _yPos;
+  string _pixelDepth;
+  string _red;
+  string _green;
+  string _blue;
+};
+
+class ElementFactory
+{
+  Element GetElement(int i);
+
+  
+
+
+
+
+
+};
+
+
+
+

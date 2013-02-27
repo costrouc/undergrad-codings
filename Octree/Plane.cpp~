@@ -1,0 +1,37 @@
+#include "Plane.h"
+
+Plane::Plane()
+{
+  _point = Point3d();
+  _normal = Vector3d();
+}
+
+Plane::Plane(Point3d point, Vector3d normal)
+{
+  _point = point;
+  _normal = normal;
+}
+
+Point3d Plane::GetPoint()
+{
+  return _point;
+}
+
+Vector3d Plane::GetNormal()
+{
+  return _normal;
+}
+
+bool Plane::PointInPlane(Point3d p)
+{
+  Vector3d planeVec(p.GetX() - GetX, p.GetY() - GetY, p.GetZ() - GetZ);
+
+  planeVec.Cross(*this);
+
+  if (planeVec.EpsilonEquals(Vector3d(0,0,0),0.0000001))
+    {
+      return true;
+    }
+  return false;
+  
+}
