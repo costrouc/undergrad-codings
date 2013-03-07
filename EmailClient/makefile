@@ -1,6 +1,6 @@
 JFLAGS = -g
 JC = javac
-LIB = mail.jar
+LIB = ".:mail.jar"
 .SUFFIXES: .java .class
 .java.class:
 	$(JC) $(JFLAGS) -classpath $(LIB) $*.java 
@@ -23,3 +23,6 @@ classes: $(CLASSES:.java=.class)
 
 clean:
 	$(RM) *.class
+
+test:
+	java MainDriver
