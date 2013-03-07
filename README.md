@@ -5,7 +5,7 @@ A personal collection of some of the files that I have written as a
 programmer. Most of them that I find interesting use a special kind of
 data structure or find interesting results. I slowly merge projects
 that I have completed into this folder. Most of the files are written
-in C, C++ and a few (2) are written in java. Some the bigger libraries
+in C, C++, Matlab and a few (2) are written in java. Some the bigger libraries
 used include OpenGL, OpenCL, LA-PACK, SCALAPACK, MPI. While I
 occasionally use smaller libraries that are included in the
 folder. Typically I inlclude a nice makefile in each directory to
