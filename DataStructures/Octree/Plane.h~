@@ -1,8 +1,0 @@
-#ifndef PLANE_H
-#define PLANE_H
-
-#include "Point3d.h"
-
-
-
-#endif
