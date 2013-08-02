@@ -1,0 +1,16 @@
+# plane
+# f v/vt/vn
+mtllib matfiles/plane.mtl
+usemtl look2
+v -1.5 -.25 -1.5
+v 1.5 -.25 1000.0
+v -1.5 -.25 1.5
+v 1.5 -.25 -1.5
+vt 0 0
+vt 0 0
+vt 0 0
+vt 0 0
+vn 0 0 0
+vx 0 0 0
+vy 0 0 0
+f 4/2/1 1/4/1 2/3/1 3/2/1
