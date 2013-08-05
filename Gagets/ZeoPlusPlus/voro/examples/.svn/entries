@@ -1,0 +1,76 @@
+8
+
+dir
+549
+https://codeforge.lbl.gov/anonscm/voro/trunk/examples
+https://codeforge.lbl.gov/anonscm/voro
+
+
+
+2013-06-19T20:10:18.615556Z
+549
+chr
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6221c96e-593b-4ce1-a500-64c4038a1943
+
+interface
+dir
+
+basic
+dir
+
+walls
+dir
+
+degenerate
+dir
+
+extra
+dir
+
+timing
+dir
+
+custom
+dir
+
+no_release
+dir
+
+Makefile
+file
+
+
+
+
+2013-08-05T15:09:51.000000Z
+3319dbc077b22e21d6b3410f50944bcf
+2011-08-31T03:02:16.607537Z
+416
+chr
+
+README
+file
+
+
+
+
+2013-08-05T15:09:51.000000Z
+7ebe6059b423f06e91ddcc961659e2a2
+2011-08-27T01:16:30.762029Z
+383
+chr
+

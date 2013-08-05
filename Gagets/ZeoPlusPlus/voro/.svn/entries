@@ -1,0 +1,106 @@
+8
+
+dir
+549
+https://codeforge.lbl.gov/anonscm/voro/trunk
+https://codeforge.lbl.gov/anonscm/voro
+
+
+
+2013-06-19T20:10:18.615556Z
+549
+chr
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6221c96e-593b-4ce1-a500-64c4038a1943
+
+LICENSE
+file
+
+
+
+
+2013-08-05T15:09:51.000000Z
+75c5629514642a2278f34692d2abf417
+2008-08-06T04:59:16.105754Z
+101
+chr
+
+html
+dir
+
+scripts
+dir
+
+src
+dir
+
+man
+dir
+
+config.mk
+file
+
+
+
+
+2013-08-05T15:09:51.000000Z
+d751a9de8410a5d89136eb2814c0f9a6
+2012-07-28T03:31:36.345645Z
+536
+chr
+
+NEWS
+file
+
+
+
+
+2013-08-05T15:09:52.000000Z
+37c67ffe290471fa160ab2a7d536b39b
+2012-09-30T07:54:12.047573Z
+541
+chr
+
+zeo
+dir
+
+Makefile
+file
+
+
+
+
+2013-08-05T15:09:52.000000Z
+a42c6dec86279d899e3c1dda30233dc9
+2011-09-21T18:49:09.906795Z
+444
+chr
+
+README
+file
+
+
+
+
+2013-08-05T15:09:52.000000Z
+13536b83b66ee63958a2cf24bcb337c7
+2011-08-30T20:57:55.096125Z
+406
+chr
+
+examples
+dir
+

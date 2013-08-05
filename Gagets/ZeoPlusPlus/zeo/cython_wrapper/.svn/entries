@@ -1,0 +1,44 @@
+8
+
+dir
+334
+https://codeforge.lbl.gov/anonscm/zeo/trunk/cython_wrapper
+https://codeforge.lbl.gov/anonscm/zeo
+
+
+
+2013-08-02T17:21:07.542155Z
+332
+bkmedasani
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+457acdd5-f93c-49a1-86b4-2e6e63628873
+
+setup.py
+file
+
+
+
+
+2013-08-05T15:13:14.000000Z
+a076bdc6d09b6b77f58033b85aee35d0
+2013-06-25T21:34:51.197530Z
+329
+bkmedasani
+has-props
+
+zeo
+dir
+
